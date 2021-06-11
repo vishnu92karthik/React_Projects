@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import style from './style';
-import './style.css';
+
+import Mounting from './Mounting';
 
 //import Button from './Button';
 //import Button2 from './Button2';
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
     {hello2}
     {hello}
+    <Mounting />
     </div>
   );
 }
