@@ -13,11 +13,14 @@ export class Mounting extends Component {
     componentDidMount(){
         console.log("component mount");
     }
+    submit=()=>{
+        alert("success vishnuk")
+    }
     render() {
         console.log("component render");
         return (
             <div>
-              example  
+                <button onClick={this.submit}>click</button>
             </div>
         )
     }
