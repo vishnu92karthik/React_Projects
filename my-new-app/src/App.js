@@ -7,7 +7,7 @@ import Mounting from './Mounting';
 //import Button from './Button';
 //import Button2 from './Button2';
 function App() {
-  let hello =  <h1 style= {{...style,...style.headingh1}}>Hello world vishnu</h1>;
+  let hello =  <h1 style= {{...style,...style.headingh1}}>Hello  vishnu</h1>;
   let hello2 = React.createElement('h1',null, 'Hello' );
   return (
    
