@@ -18,7 +18,7 @@ function App() {
   const removeContactHandler = (id) => {
     const newContactList = contacts.filter((contact) => {
       return contact.id !== id;
-    });
+    }); 
 
     setContacts(newContactList);
   };

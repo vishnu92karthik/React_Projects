@@ -1,0 +1,60 @@
+.container {
+  margin: auto;
+  background-color: whitesmoke;
+  padding: 50px 30px 30px 30px;
+}
+.headcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.textcontainer {
+  margin: 0 0 20px 0px;
+  padding: 0;
+  display: flex;
+}
+.live {
+  width: 100px;
+
+  margin-right: 10px;
+  margin-left: 0;
+}
+.btncontainer {
+  line-height: 12px;
+  width: 18px;
+  font-size: 8pt;
+  font-family: tahoma;
+  margin-top: 20px;
+  margin-right: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 50px;
+}
+.card-text {
+  color: blue;
+}
+.bi-file-pdf {
+  color: red;
+}
+.bi-play-btn {
+  color: red;
+}
+.bi-bookmark-star-fill {
+  color: gold;
+}
+#pdfg {
+  margin-right: 20px;
+}
+.svg2 {
+  display: inline-block;
+  padding-top: 40px;
+  margin-right: 10px;
+  margin-left: 40px;
+  position: absolute;
+}
+.svg1 {
+  display: inline-block !important;
+}
+.svgmain {
+  padding-top: 20px;
+}

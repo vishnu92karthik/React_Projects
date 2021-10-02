@@ -1,0 +1,17 @@
+.NavigationBar {
+  width: 100%;
+  background: black;
+  opacity: 0.75;
+  position: fixed;
+  top: 0;
+  color: yellow;
+}
+.NavigationBar ul {
+  list-style: none;
+  padding-right: 200px;
+}
+.NavigationBar ul li {
+  display: inline;
+  padding-left: 20px;
+  margin-left: 20px;
+}
