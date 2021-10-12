@@ -1,11 +1,16 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 
-function BookSearch() {
+function BookSearch(props) {
     return (
-        <div>
-            <h1>hi</h1>
+        <div className="search-area">
+            <form onSubmit={props.searchB}>
+                <input type="text" onChange ={props.handleSearch}></input>
+                <Button type="submit">Search</Button>
+            </form>
         </div>
     )
 }
 
 export default BookSearch
+
