@@ -10,9 +10,10 @@ export class App extends Component {
   componentDidMount(){
     fetch('https://reqres.in/api/users?page=2')
     .then(response => response.json())
-    .then(userData => console.log(userData.data))
+    .then(usersData => this.setState({users:usersData.data}))
   }
   render() {
+    console.log(this.state.users)
     return (
       <div>
         
