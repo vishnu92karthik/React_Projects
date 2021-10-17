@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CardWrapper from './CardWrapper';
 
 export class App extends Component {
   constructor(){
@@ -16,7 +17,7 @@ export class App extends Component {
     console.log(this.state.users)
     return (
       <div>
-        
+        <CardWrapper users = {this.state.users}/>
       </div>
     )
   }
