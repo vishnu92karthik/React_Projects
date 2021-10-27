@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Grid from './Grid';
+//import Grid from './Grid';
 function App() {
   const [count, setCount] = useState(0);
   const handleClick = () => {
@@ -28,7 +28,7 @@ function App() {
 </Card>
 
     </div>
-    <Grid />
+
     </>
   );
 }
